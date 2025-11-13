@@ -1,24 +1,16 @@
-# Ignore Python cache files
-__pycache__/
-*.pyc
-*.pyo
-*.pyd
-
 # Virtual environment
+.venv/
 venv/
 
-# Large binary files
+# Python cache
+__pycache__/
+*.pyc
+
+# Large artifacts
+artifacts/
 *.npy
 *.parquet
 *.index
-*.log
-
-# IDE settings
-.vscode/
-.DS_Store
-
-# Environment / secrets
-.env
 
 # OS files
-Thumbs.db
+.DS_Store
